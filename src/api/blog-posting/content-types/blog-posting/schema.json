@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_postings",
+  "info": {
+    "singularName": "blog-posting",
+    "pluralName": "blog-postings",
+    "displayName": "BlogPosting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headline": {
+      "type": "string"
+    },
+    "abstract": {
+      "type": "text"
+    },
+    "articleBody": {
+      "type": "richtext"
+    },
+    "thumbnailUrl": {
+      "type": "string",
+      "default": "https://www.stockvault.net/data/2020/06/18/276784/preview16.jpg"
+    }
+  }
+}
